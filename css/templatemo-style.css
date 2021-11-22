@@ -877,9 +877,62 @@ ul.images-svg img:hover{
 }
 
 
+/* Iconos de experiencia */
+ul.exp-icons {
+	list-style: none;
+	text-decoration: none !important;
+	padding-left: 0;
+}
+ul.exp-icons a{
+	text-decoration: none !important;
+}
+ul.exp-icons a:hover{
+	font-weight: bold;
+	transition: ease-out;
+	transition: all 0.5s;
+}
+
+ul.exp-icons .icon{
+	text-decoration: none !important;
+}
+
+	ul.exp-icons li{
+		display: inline-block;
+		list-style-type: none;
+		list-style: none;
+		margin: 0 0 1em 0;
+		padding: 0.35em 0 0 3.5em;
+		position: relative;
+		vertical-align: top;
+		width: 48%;
+	}
+
+	ul.exp-icons b{
+		text-decoration: none !important;
+		background: var(--pur-prim);
+		border-radius: 100%;
+		z-index: 1;
+		color: #ffffff;
+		display: block;
+		height: 2.5em;
+		left: 0;
+		line-height: 2.5em;
+		position: absolute;
+		text-align: center;
+		top: 0;
+		width: 2.5em;
+	}
+	ul.exp-icons b:hover{
+		background: var(--blu-prim) !important;
+		color: #3d1737;
+		transition: ease-out;
+		transition: all 0.5s;
+	}
+
 
 
 /* Contact Style */
+
 
 #contact {
   padding-top: 0px;
@@ -927,7 +980,7 @@ ul.images-svg img:hover{
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #00b90f;
   display: inline-block;
   height: 44px;
   line-height: 24px;
