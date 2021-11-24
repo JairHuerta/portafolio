@@ -8,6 +8,7 @@ https://templatemo.com/tm-518-sentra
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #cdcdcd;
 }
 
 p {
@@ -423,7 +424,7 @@ header {
 }
 
 .Modern-Slider .item-1 .image {
-  background-image: url(../img/f1-2020.png);
+  background-image: url(../img/fondo-2.png);
 }
 
 .Modern-Slider .item-2 .image {
