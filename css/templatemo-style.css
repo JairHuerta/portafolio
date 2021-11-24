@@ -424,7 +424,7 @@ header {
 }
 
 .Modern-Slider .item-1 .image {
-  background-image: url(../img/fondo-2.png);
+  background-image: url(../img/fondo3.png);
 }
 
 .Modern-Slider .item-2 .image {
@@ -532,7 +532,7 @@ header {
 }
 
 #featured .owl-nav span:hover {
-  background-color: #45489a;
+  background-color: #599a45;
   color: #fff;
 }
 
@@ -880,9 +880,11 @@ ul.images-svg img:hover{
 
 /* Iconos de experiencia */
 ul.exp-icons {
-	list-style: none;
-	text-decoration: none !important;
-	padding-left: 0;
+  list-style: none;
+  text-decoration: none !important;
+  padding-left: 0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 ul.exp-icons a{
 	text-decoration: none !important;
@@ -891,6 +893,10 @@ ul.exp-icons a:hover{
 	font-weight: bold;
 	transition: ease-out;
 	transition: all 0.5s;
+}
+
+ul.exp-icons img{
+  width: 40%;
 }
 
 ul.exp-icons .icon{
@@ -913,7 +919,7 @@ ul.exp-icons .icon{
 		background: var(--pur-prim);
 		border-radius: 100%;
 		z-index: 1;
-		color: #ffffff;
+		color: #000000;
 		display: block;
 		height: 2.5em;
 		left: 0;
@@ -925,10 +931,18 @@ ul.exp-icons .icon{
 	}
 	ul.exp-icons b:hover{
 		background: var(--blu-prim) !important;
-		color: #3d1737;
+		color: #2b9900;
 		transition: ease-out;
 		transition: all 0.5s;
 	}
+
+  ul.exp-icons img:hover{
+    transition:step-start;
+    transition: all 0.3s;
+  }
+
+
+  
 
 
 
